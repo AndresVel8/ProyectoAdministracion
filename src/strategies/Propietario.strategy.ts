@@ -25,7 +25,7 @@ export class EstrategiaPropietario implements AuthenticationStrategy {
         throw new HttpErrors[403]('token no valido');
       }
     } else {
-      throw new HttpErrors[401]('no se a detectado el token de la solicitud');
+      throw new HttpErrors[401]('no se a detectado el token  de la solicitud');
     }
 
   }
